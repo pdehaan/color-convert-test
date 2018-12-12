@@ -1,0 +1,27 @@
+{
+  "name": "color-convert-test",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/color-convert-test/issues"
+  },
+  "dependencies": {
+    "color-convert": "1.9.3"
+  },
+  "devDependencies": {
+    "ajv": "6.6.1"
+  },
+  "homepage": "https://github.com/pdehaan/color-convert-test#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/color-convert-test.git"
+  },
+  "scripts": {
+    "format": "npx prettier src/*.js schemas/*.js *.js --write",
+    "start": "node index",
+    "test": "node test-palettes"
+  }
+}
