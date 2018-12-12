@@ -38,9 +38,3 @@ exports.palettes = {
   required: ["palettes", "swatches"],
   additionalProperties: false
 };
-
-// exports.swatches = {
-//   type: "object",
-//   properties: swatchProperties,
-//   additionalProperties: false
-// };

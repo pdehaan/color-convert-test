@@ -28,7 +28,6 @@ function colorMap(colors) {
 function hexToHSL(hex) {
   const [h, s, l] = convert.hex.hsl(hex);
   const str = `hsl(${h}, ${s}%, ${l}%)`;
-  str.raw = {h, s, l};
   return str;
   // return {
   //   h,
